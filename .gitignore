@@ -1,0 +1,50 @@
+# Private and development files
+Private/*
+.Private/*
+_Private/*
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*~
+
+# MATLAB autosave and temporary files
+*.asv
+*.m~
+slprj/
+
+# Results and data files
+**/*.mat
+*.mat
+results/**/*.mat
+
+# Figures and plots (keep directory structure but ignore contents)
+figures/**/*.fig
+figures/**/*.png
+figures/**/*.pdf
+figures/**/*.jpg
+figures/**/*.eps
+figures_formatted/**/*.fig
+figures_formatted/**/*.png
+figures_formatted/**/*.pdf
+figures_formatted/**/*.jpg
+figures_formatted/**/*.eps
+
+# Keep example figures if any (uncomment if needed)
+# !figures/example_*.png
+
+# Log files
+*.log
+
+# Compiled MEX files (if any)
+*.mex*
+
+# Temporary files
+*.tmp
+temp/
+
