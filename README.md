@@ -229,7 +229,7 @@ Tutorial script demonstrating the complete workflow with detailed comments.
 ```matlab
 [K, Q, cost] = calculus_spatial_regret(sys, oracle_LFT, delays_matrix, options)
 ```
-- Minimizes: $\sup_{\omega} \sigma_{\max}(T_{zw}(e^{j\omega}) - T_{zw}^{\text{oracle}}(e^{j\omega}))$
+- Minimizes: $\sup_{\omega} \lambda_{\max}(T_{zw}^*(e^{j\omega})T_{zw}(e^{j\omega}) - \hat{T}_{zw}^{*}(e^{j\omega})\hat{T}_{zw}(e^{j\omega}))$
 - Methods: `'sls'`, `'sampled_youla'`, `'tf_sampled'`
 
 **`calculus_spatial_regret_L1.m`** - L1-based spatial regret minimization
